@@ -5,6 +5,7 @@ fun main() {
     val letter = 'D'
     val myBoolean = false
     val myText = "Hello"
+    // String values must be surrounded by double quotes
     // var can change
     println(myNum)
     println(myDuble)
