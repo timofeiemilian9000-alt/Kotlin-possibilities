@@ -1,0 +1,23 @@
+**🗂️ Recommended Project Structure**
+```
+MyNoteApp/
+├── app/
+│   ├── src/
+│   │   ├── data/
+│   │   │   ├── NoteDatabase.kt
+│   │   │   ├── NoteDao.kt
+│   │   │   └── NoteRepository.kt
+│   │   ├── model/
+│   │   │   └── Note.kt
+│   │   ├── ui/
+│   │   │   ├── NoteListScreen.kt
+│   │   │   ├── NoteEditScreen.kt
+│   │   │   └── NoteViewModel.kt
+│   │   └── main.kt
+│   └── build.gradle.kts        ← ✅ app-level config (dependencies)
+│
+├── gradle/
+│   └── libs.versions.toml      ← version catalog (optional but recommended)
+├── build.gradle.kts            ← ✅ project-level config (plugins)
+├── settings.gradle.kts         ← ✅ declares app module name
+└── gradle.properties           ← JVM & build flags

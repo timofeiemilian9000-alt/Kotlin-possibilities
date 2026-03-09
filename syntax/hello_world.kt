@@ -8,9 +8,9 @@ fun main() {
         line 
         comment
      */
-    println("It awsome!")
+    println("It is awsome!")
     // you can print numbers and operations
-    println(100+500)
+    println(100+500) // 600
     // if you use just print it will concatenate to the previous line
     print(" concatenated with number below ")
     print(1) 
